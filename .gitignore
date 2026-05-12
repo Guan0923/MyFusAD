@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Training / evaluation outputs
+checkpoints_grid/
+lightning_logs/
+run_logs/
+textOutput/
+
+# Model weights and checkpoints
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.h5
+
+# Logs
+*.log
+
+# Notebook metadata
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
